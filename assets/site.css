@@ -106,5 +106,13 @@ h1,h2,h3{color:var(--ink);margin:0;line-height:1.08;letter-spacing:-.03em;font-w
 .foot a{color:var(--text);text-decoration:none}
 .foot p{max-width:860px;margin:0 0 10px}
 
+.dls{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:14px;margin:6px 0 10px}
+.dl{background:var(--soft);border-radius:24px;padding:18px}
+.dl__h{display:flex;gap:10px;align-items:center;font-weight:900;color:var(--ink);font-size:19px;margin-bottom:12px}
+.dl__btn{display:flex;flex-direction:column;align-items:flex-start;gap:3px;background:var(--ink);color:#fff;text-decoration:none;border-radius:16px;padding:13px 16px;margin-top:8px}
+.dl__btn:hover{background:var(--pink);color:#fff}
+.dl__btn b{font-size:16px}
+.dl__btn span{font-size:13px;opacity:.7}
+.text .dls{margin-top:0}
 @media (max-width:900px){.nav{display:none}.top .btn{margin-left:auto}.steps{grid-template-columns:repeat(2,minmax(0,1fr))}.plans{grid-template-columns:minmax(0,1fr)}.more{grid-template-columns:minmax(0,1fr)}}
 @media (max-width:560px){body{font-size:16px}.apps,.steps{grid-template-columns:minmax(0,1fr)}.hero__btns .btn{width:100%}.cta{padding:40px 22px}.cta__donut{width:160px;right:-50px;top:-40px}}
