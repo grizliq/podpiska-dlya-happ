@@ -117,3 +117,9 @@ h1,h2,h3{color:var(--ink);margin:0;line-height:1.08;letter-spacing:-.03em;font-w
 @media (max-width:900px){.nav{display:none}.top .btn{margin-left:auto}.steps{grid-template-columns:repeat(2,minmax(0,1fr))}.plans{grid-template-columns:minmax(0,1fr)}.more{grid-template-columns:minmax(0,1fr)}}
 @media (max-width:560px){body{font-size:16px}.apps,.steps{grid-template-columns:minmax(0,1fr)}.hero__btns .btn{width:100%}.cta{padding:40px 22px}.cta__donut{width:160px;right:-50px;top:-40px}}
 .text .note{background:var(--soft2);border-radius:18px;padding:16px 20px;font-size:15px;color:var(--ink)}
+.ailogos{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin:18px 0 0}
+.ailogos span{display:inline-flex;align-items:center;gap:10px;background:var(--soft);border-radius:999px;padding:8px 18px 8px 8px;font-weight:700;color:var(--ink)}
+.ailogos img{width:40px;height:40px;background:#fff;border-radius:50%;padding:7px}
+.more a.ailink{display:grid;grid-template-columns:40px 1fr;column-gap:12px;align-items:center}
+.more a.ailink img{grid-row:span 2;width:40px;height:40px;background:#fff;border-radius:12px;padding:6px}
+.more a.ailink span{grid-column:2}
